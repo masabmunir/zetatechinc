@@ -1,8 +1,6 @@
-// pages/about.js
-
 import React from "react";
 
-const Careers = () => {
+const Career = () => {
     return (
         <div
             style={{
@@ -19,4 +17,4 @@ const Careers = () => {
     );
 };
 
-export default Careers;
+export default Career;
