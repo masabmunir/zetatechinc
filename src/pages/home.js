@@ -4,13 +4,13 @@ import About from "./about";
 import Industries from "./industries";
 import Inside from "./inside";
 import Services from "./service";
-import Navbar from "../components/Navbar";
 import Career from "./careers";
 import Header from "../components/Navbar/header";
 
 function Home() {
 
-    return <div>Home
+    return <div>
+        {/*<p>Home</p>*/}
     </div>;
 }
 
@@ -31,10 +31,7 @@ function Nav() {
                     element={<Inside />}
                 />
                 <Route path="/service" element={<Services />} />
-                {/*<Route*/}
-                {/*    path="/sign-up"*/}
-                {/*    element={<SignUp />}*/}
-                {/*/>*/}
+
             </Routes>
         </Router>
     );
