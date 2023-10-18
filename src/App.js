@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import Home from "./pages/home";
+import './clientlibs/clientlib-rad.lc-e0f7ea42ea5bb267dace06850c84b864-lc.min.css'
 function App() {
   return (
       <>
@@ -63,7 +64,6 @@ function App() {
               </div>
               <h3 className="rad-360-value-title__sub-header">Every day, we embrace change and create
                   value for all our stakeholders, in every part of the world. </h3>
-
           </div>
       </>
   );
