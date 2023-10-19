@@ -23,6 +23,7 @@ const banner = () => {
                     </div>
                 </a>
             </div>
+
         </>
     );
 };

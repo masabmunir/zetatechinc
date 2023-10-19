@@ -7,6 +7,7 @@ import ClientCarousel  from './components/ClientCarousel'
 import Footer from './components/footer'
 import MediaText from "./components/MediaText";
 import AccentureNews from "./components/AccentureNews";
+import FloatingCards from "./components/FloatingCards";
 function App() {
   return (
       <>
@@ -72,6 +73,7 @@ function App() {
                   value for all our stakeholders, in every part of the world. </h3>
           </div>
         <ClientCarousel/>
+        <FloatingCards/>
         <MediaText/>
         <AccentureNews/>
         <Footer/>
