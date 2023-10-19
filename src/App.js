@@ -1,11 +1,17 @@
 import React from "react";
 import './App.css';
 import Home from "./pages/home";
-import './clientlibs/clientlib-rad.lc-e0f7ea42ea5bb267dace06850c84b864-lc.min.css'
+import './clientlibs/clientlib-rad.lc-e0f7ea42ea5bb267dace06850c84b864-lc.min.css';
+import Banner from './components/banner';
+import ClientCarousel  from './components/ClientCarousel'
+import Footer from './components/footer'
+import MediaText from "./components/MediaText";
+import AccentureNews from "./components/AccentureNews";
 function App() {
   return (
       <>
-        <Home />
+        <Home/>
+        <Banner/>
           <div className="rad-360-value-title">
               <div className="rad-360-value-title__header"
                    data-cmp-data-layer="{&#34;valuetitle-621c3211a4&#34;:{&#34;@type&#34;:&#34;cio-sites/components/rad/valuetitle&#34;,&#34;analytics-module-name&#34;:&#34;valuetitle-1&#34;,&#34;analytics-template-zone&#34;:&#34;block-360-value-in-action&#34;}}"
@@ -65,6 +71,11 @@ function App() {
               <h3 className="rad-360-value-title__sub-header">Every day, we embrace change and create
                   value for all our stakeholders, in every part of the world. </h3>
           </div>
+        <ClientCarousel/>
+        <MediaText/>
+        <AccentureNews/>
+        <Footer/>
+
       </>
   );
 }

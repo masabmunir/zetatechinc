@@ -52,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.22.15",
     "@svgr/webpack": "^8.1.0",
     "svgo": "^2.0.0",
     "url-loader": "^4.1.1"
