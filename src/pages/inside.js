@@ -5,7 +5,6 @@ const Inside = () => {
 
         <>
             <p>Inside page</p>
-
         </>
     );
 };

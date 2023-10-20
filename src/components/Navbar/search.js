@@ -9,7 +9,7 @@ const Search = () => {
 
                 <div className="cmp-global-header__search"
                      data-cmp-data-layer="{&#34;globalheader-searchLink-ff8d05c6c8&#34;:{&#34;xdm:linkURL&#34;:&#34;/us-en/search/ai-search&#34;,&#34;analytics-engagement&#34;:&#34;false&#34;,&#34;analytics-link-type&#34;:&#34;search activity&#34;,&#34;analytics-link-name&#34;:&#34;initiated search - click/tap&#34;,&#34;analytics-module-name&#34;:&#34;top nav&#34;}}">
-                    <a href="us-en/search/ai-search.html" target="_self" aria-label="search-aria"
+                    <a href="/"  aria-label="search-aria"
                        data-cmp-clickable></a>
                 </div>
 

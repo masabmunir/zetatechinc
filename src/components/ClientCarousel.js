@@ -5,7 +5,6 @@ import '../clientlibs/clientlib-rad.lc-e0f7ea42ea5bb267dace06850c84b864-lc.min.c
 const ClientCarousel  = () => {
     return(
         <>
-
             <div className="client-carousel">
                 <div id="carousel-05344ff24c" data-placeholder-text="false"
                      data-play-button-datalayer="{&#34;carousel-05344ff24c-play&#34;:{&#34;xdm:linkURL&#34;:&#34;/us-en&#34;,&#34;analytics-engagement&#34;:&#34;false&#34;,&#34;analytics-link-type&#34;:&#34;cta&#34;,&#34;analytics-link-name&#34;:&#34;play: featured-client&#34;,&#34;analytics-module-name&#34;:&#34;featured client block&#34;,&#34;analytics-template-zone&#34;:&#34;block-carousel-1&#34;}}"
@@ -226,11 +225,10 @@ const ClientCarousel  = () => {
                     </div>
                     <div className="rad__range-input-slider-container rad-carousel--six-plus-cells__only">
                         <input className="rad__range-input-slider-for-carousel" max="500" min="0"
-                               aria-label="carousel slider" value="1" type="range"/>
+                               aria-label="carousel slider" defaultValue="1" type="range"/>
                     </div>
                 </div>
             </div>
-
 
         </>
     )

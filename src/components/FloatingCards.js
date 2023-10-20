@@ -34,7 +34,7 @@ const FloatingCard = () => {
                                        aria-label="Expand: We’re one of Fortune’s World’s Most Admired Companies"
                                        title="This opens a new tab." data-cmp-clickable
                                        data-cmp-data-layer="{&#34;floatingawardcards-1da42e566f-cta&#34;:{&#34;xdm:linkURL&#34;:&#34;https://fortune.com/ranking/worlds-most-admired-companies/&#34;,&#34;analytics-engagement&#34;:&#34;true&#34;,&#34;analytics-link-type&#34;:&#34;engagement&#34;,&#34;analytics-link-name&#34;:&#34;Expand: We’re one of Fortune’s World’s Most Admired Companies&#34;}}"
-                                       target="_blank" className="rad-button rad-button--ghost">
+                                       target="_blank" rel="noreferrer" className="rad-button rad-button--ghost">
                                         <div className="rad-button__text">Expand</div>
                                         <div
                                             className="rad-button__icon-right rad-icon rad-icon__chevron-right rad-icon--compact"
@@ -68,7 +68,7 @@ const FloatingCard = () => {
                                        aria-label="Expand: Fortune &amp; Great Place to Work® World’s Best Workplaces™ "
                                        title="This opens a new tab." data-cmp-clickable
                                        data-cmp-data-layer="{&#34;floatingawardcards-f31e5d9a9a-cta&#34;:{&#34;xdm:linkURL&#34;:&#34;https://www.greatplacetowork.com/worlds-best-workplaces&#34;,&#34;analytics-engagement&#34;:&#34;true&#34;,&#34;analytics-link-type&#34;:&#34;engagement&#34;,&#34;analytics-link-name&#34;:&#34;Expand: Fortune &amp; Great Place to Work® World’s Best Workplaces™ &#34;}}"
-                                       target="_blank" className="rad-button rad-button--ghost">
+                                       target="_blank" rel="noreferrer" className="rad-button rad-button--ghost">
                                         <div className="rad-button__text">Expand</div>
                                         <div
                                             className="rad-button__icon-right rad-icon rad-icon__chevron-right rad-icon--compact"
@@ -101,7 +101,7 @@ const FloatingCard = () => {
                                        aria-label="Expand: Refinitiv Global Diversity &amp; Inclusion Index"
                                        title="This opens a new tab." data-cmp-clickable
                                        data-cmp-data-layer="{&#34;floatingawardcards-93d774216a-cta&#34;:{&#34;xdm:linkURL&#34;:&#34;https://www.linkedin.com/pulse/you-proud-your-company-i-am-beck-bailey/&#34;,&#34;analytics-engagement&#34;:&#34;true&#34;,&#34;analytics-link-type&#34;:&#34;engagement&#34;,&#34;analytics-link-name&#34;:&#34;Expand: No.1 on the Refinitiv Global Diversity &amp; Inclusion Index&#34;}}"
-                                       target="_blank" className="rad-button rad-button--ghost">
+                                       target="_blank" rel="noreferrer" className="rad-button rad-button--ghost">
                                         <div className="rad-button__text">Expand</div>
                                         <div
                                             className="rad-button__icon-right rad-icon rad-icon__chevron-right rad-icon--compact"

@@ -8,6 +8,7 @@ import Footer from './components/footer'
 import MediaText from "./components/MediaText";
 import AccentureNews from "./components/AccentureNews";
 import FloatingCards from "./components/FloatingCards";
+
 function App() {
   return (
       <>
@@ -41,8 +42,8 @@ function App() {
                                fill="none" role="presentation"
                                xmlns="http://www.w3.org/2000/svg">
                               <circle className="rad-360-value-title__header-circle-path" cx="200"
-                                      cy="200" r="167" stroke="currentcolor" stroke-width="66"
-                                      stroke-dasharray="1050" stroke-dashoffset="0"/>
+                                      cy="200" r="167" stroke="currentcolor" strokeWidth="66"
+                                      strokeDasharray="1050" strokeDashoffset="0"/>
                           </svg>
                       </div>
                   </div>

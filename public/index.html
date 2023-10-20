@@ -7,52 +7,131 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+      content="Web site created using create-react-app"/>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+
+    <link rel="preload" href="https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location" as="script"/>
+    <link rel="preload" as="font" type="font/woff2" crossorigin href="src/clientlibs/clientlib-rad/resources/fonts/graphik-medium-web.woff2"/>
+    <link rel="preload" as="font" type="font/woff2" crossorigin href="src/clientlibs/clientlib-rad/resources/fonts/graphik-medium-web.woff2"/>
+
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <script src="/assets/js/granite/jquery.lc-7842899024219bcbdb5e72c946870b79-lc.min.js"></script>
+
+    <link rel="stylesheet" href="../src/clientlibs/clientlib-base.lc-99e6138fc3579fe6a02605a8fc47cd6b-lc.min.css" type="text/css">
+    <link rel="stylesheet" href="../src/clientlibs/clientlib-rad.lc-e0f7ea42ea5bb267dace06850c84b864-lc.min.css" type="text/css">
+
+
+
+    <script>
+      window.adobeDataLayer = window.adobeDataLayer || [];
+    </script>
+
+    <script>
+      adobeDataLayer.push({
+        page: JSON.parse("{\x22pageData\x22:{\x22pageTagging\x22:{\x22careers\x22:{\x22careerLevel\x22:\x22\x22,\x22skill1\x22:\x22\x22,\x22skill2\x22:\x22\x22,\x22pageCategory\x22:\x22\x22},\x22blogs\x22:{\x22blogName\x22:\x22\x22,\x22blogTopic\x22:\x22\x22},\x22theme\x22:\x22\x22,\x22growthPriority\x22:\x22n\/a\x22,\x22contentFormat\x22:\x22image (static)\x22,\x22contentType\x22:\x22n\/a\x22,\x22primaryBuyerFunction\x22:\x22\x22,\x22entityL1\x22:\x22\x22,\x22entityL2\x22:\x22\x22,\x22entityL3\x22:\x22\x22,\x22entityL4\x22:\x22\x22,\x22industry\x22:\x22\x22},\x22authorInfo\x22:{\x22author\x22:\x22\x22},\x22target\x22:{\x22blockDynamicContent\x22:false},\x22pageProperties\x22:{\x22contentDate\x22:\x22\x22,\x22siteId\x22:\x22acn\x22,\x22templateName\x22:\x22atp:rad homepage\x22,\x22publishDate\x22:\x222023\u002D10\u002D13T09:05:11.366Z\x22,\x22guid\x22:\x22f7476441e7495011983c21cc81416858\x22,\x22pageName\x22:\x22acn:page:homepage\x22,\x22countryLanguage\x22:\x22us\u002Den\x22,\x22siteBranch\x22:\x22core\x22,\x22subFolder\x22:\x22\x22,\x22tertiaryFolder\x22:\x22\x22},\x22analytics\u002Dmodule\u002Dname\x22:\x22radicalaccenturedesign\u002D2\x22,\x22@type\x22:\x22cio\u002Dsites\/components\/page\u002Dcomponents\/radicalaccenturedesign\x22}}"),
+        event: 'cmp:dataLayerLoaded',
+        eventInfo: {
+          path: 'page.page\u002Df3f3debf6f'
+        }
+      });
+      adobeDataLayer.push({
+        event : 'dataLayerReady',
+        visitor : {
+          visitorInfo : {
+            visitorLoginStatus : 'anon',
+            visitorType : '',
+            visitorEmpRef : '',
+            visitorGuid : '',
+            visitorAcnEmp : '',
+            visitorAccess : '',
+            visitorCity : '',
+            visitorCountry : '',
+            visitorStateOrProvince : '',
+            visitorCarLevel : '',
+            visitorCarActivity : ''
+          },
+          visitorPreference : {
+            preferenceCity : '',
+            preferenceCountry : '',
+            preferenceIndustry : '',
+            preferenceSkill : '',
+            preferenceSpecialization : '',
+            preferenceTravelFrequency : ''
+          },
+          visitorSubscription : {
+            careersBlogSubscriber : 'false',
+            jobAlertsSubscriber : 'false',
+            lifeatAccentureSubscriber : 'false',
+            talentConnectionSubscriber : 'false'
+          }
+        }
+      });
+    </script>
+
+    <script>
+      let origin = window.location.origin.toLowerCase();
+      let otScript = document.createElement("script");
+      otScript.setAttribute("type", "text/javascript");
+      otScript.setAttribute("data-document-language", "true");
+      otScript.setAttribute("charset", "UTF-8");
+
+      if (origin.indexOf(".cdnsvc") > 1) {
+        otScript.setAttribute("src", "apps/cio-sites/clientlibs/onetrust/ot-s/scripttemplates/otSDKStub.html");
+        otScript.setAttribute("data-domain-script","447538ad-b6bf-4dce-a2c6-6517ede21fc1-test");
+      }
+
+      else if (origin.indexOf(".cn") > 1) {
+        otScript.setAttribute("src", "apps/cio-sites/clientlibs/onetrust/ot-p/scripttemplates/otSDKStub.html");
+        otScript.setAttribute("data-domain-script","447538ad-b6bf-4dce-a2c6-6517ede21fc1");
+      }
+
+      else
+      {
+        otScript.setAttribute("src", "../cdn.cookielaw.org/scripttemplates/otSDKStub.js");
+        otScript.setAttribute("data-domain-script","d6e38d3c-2419-4258-8e8d-d1a7d3972604");
+
+      }
+      document.head.appendChild(otScript);
+    </script>
+
+    <title>Accenture | Let There Be Change</title>
   </head>
-  <body>
+  <body class="radicalaccenturedesign generic page basicpage "  data-barba="wrapper" data-cmp-data-layer-enabled>
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <div id="root" ></div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <script defer src="../src/clientlibs/clientlib-rad-base.lc-e3ee80d8770b608fce0f7e6dd2232209-lc.min.js"></script>
+    <!-- customfooter -->
+    <script defer src="../src/clientlibs/clientlib-base.lc-012ae2b1d05e8ff137d70f70afce04c9-lc.min.js"></script>
+    <script src="../src/content/dam/system-files/acom/custom-code/change-more/js/accenture-RAD-template-quick-fix.js" type="text/javascript"></script>
+    <script src="../src/content/dam/system-files/acom/custom-code/change-more/js/accenture-change-more-quick-fix.js" type="text/javascript"></script>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-    <script src="/assets/js/granite/jquery.lc-7842899024219bcbdb5e72c946870b79-lc.min.js"></script>
+
+
+
     <script src="/assets/js/granite/utils.lc-e7bf340a353e643d198b25d0c8ccce47-lc.min.js"></script>
     <script src="/assets/js/granite/jquery/granite.lc-543d214c88dfa6f4a3233b630c82d875-lc.min.js"></script>
     <script src="/assets/js/foundation/clientlibs/jquery.lc-dd9b395c741ce2784096e26619e14910-lc.min.js"></script>
-
-
     <script defer src="/assets/js/clientlib-rad-base.lc-e3ee80d8770b608fce0f7e6dd2232209-lc.min.js"></script>
-    <!-- customfooter -->
-<!--    <script defer src="/assets/js/clientlib-rad-base.lc-e3ee80d8770b608fce0f7e6dd2232209-lc.min.js"></script>-->
 
 
-<!--    <script src="content/dam/system-files/acom/custom-code/change-more/js/accenture-RAD-template-quick-fix.js_%3b%20filename_%3dUTF-8%27%27accenture-RAD-template-quick-fix.js" type="text/javascript"></script>-->
+    <script>
+      window.addEventListener('DOMContentLoaded',()=>{
+        const form = document.querySelectorAll("form");
+        if (form.length > 0) {
+          var rcScript = document.createElement("script");
+          rcScript.setAttribute("type","text/javascript");
+          rcScript.setAttribute("data-document-language","true");
+          rcScript.setAttribute("charset","UTF-8");
+          rcScript.setAttribute("src","../www.google.com/recaptcha/api85f1.js?onload=onloadCallback&amp;render=explicit");
+          document.body.appendChild(rcScript);
+        }
+      })
+    </script>
 
-<!--    <script src="content/dam/system-files/acom/custom-code/change-more/js/accenture-change-more-quick-fix.js_%3b%20filename_%3dUTF-8%27%27accenture-change-more-quick-fix.js" type="text/javascript"></script>-->
   </body>
 </html>

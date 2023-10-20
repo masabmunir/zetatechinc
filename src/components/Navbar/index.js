@@ -3,9 +3,7 @@ import {
     Nav,
     NavLink,
     Bars,
-    NavMenu,
-    NavBtn,
-    NavBtnLink,
+    NavMenu
 } from "./NavbarElement";
 
 const Navbar = () => {
@@ -17,19 +15,19 @@ const Navbar = () => {
                     <NavLink to="/about" >
                         About
                     </NavLink>
-                    <NavLink to="/career" activeStyle>
+                    <NavLink to="/career" activestyle="true">
                         Careers
                     </NavLink>
-                    <NavLink to="/industries" activeStyle>
+                    <NavLink to="/industries" activestyle="true">
                         Industries
                     </NavLink>
-                    <NavLink to="/inside" activeStyle>
+                    <NavLink to="/inside" activestyle="true">
                         Inside
                     </NavLink>
-                    <NavLink to="/service" activeStyle>
+                    <NavLink to="/service" activestyle="true">
                         Service
                     </NavLink>
-                    <NavLink to="/sign-up" activeStyle>
+                    <NavLink to="/sign-up" activestyle="true">
 
                     </NavLink>
 
