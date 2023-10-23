@@ -5,9 +5,8 @@ $(function(){
     $(".cmp-logo__svg-wrapper svg title").text("Accenture");
 })
 
-
 $(window).on("load", function() {
-    var w_href = window.location.href
+    let w_href = window.location.href
       , target_hash = "#" + w_href.split("#")[1];
     if (w_href.indexOf("#") > -1) {
         $("html, body").animate({
