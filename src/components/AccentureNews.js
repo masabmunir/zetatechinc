@@ -1,6 +1,7 @@
 import React from 'react';
-import '../clientlibs/clientlib-rad.lc-e0f7ea42ea5bb267dace06850c84b864-lc.min.css';
+import '../clientlib-rad.lc-e0f7ea42ea5bb267dace06850c84b864-lc.min.css';
 
+// import '../clientlibs/clientlib-base.lc-99e6138fc3579fe6a02605a8fc47cd6b-lc.min.css'
 const Accenture = ()=>{
     return(
         <>
@@ -23,7 +24,6 @@ const Accenture = ()=>{
 
                         <div className="rad-news-carousel-cell">
 
-
                             <a className="rad-news-card"
                                href="https://newsroom.accenture.com/news/accenture-reports-fourth-quarter-and-strong-full-year-fiscal-2023-results.htm"
                                target="_blank"
@@ -36,7 +36,6 @@ const Accenture = ()=>{
                                 <h3 className="rad-news-title" data-cmp-clickable
                                     data-cmp-data-layer="{&#34;news_copy_copy_copy_-card-title-08d48058bb&#34;:{&#34;xdm:linkURL&#34;:&#34;https://newsroom.accenture.com/news/accenture-reports-fourth-quarter-and-strong-full-year-fiscal-2023-results.htm&#34;,&#34;analytics-engagement&#34;:&#34;true&#34;,&#34;analytics-link-type&#34;:&#34;engagement&#34;,&#34;analytics-link-name&#34;:&#34;Accenture Reports Fourth-Quarter and Strong Full-Year Fiscal 2023 Results&#34;,&#34;analytics-module-name&#34;:&#34;newscard-1&#34;,&#34;analytics-template-zone&#34;:&#34;block-accenture-news&#34;}}"> Accenture
                                     Reports Fourth-Quarter and Strong Full-Year Fiscal 2023 Results </h3>
-
                             </a>
 
                         </div>
@@ -60,20 +59,16 @@ const Accenture = ()=>{
                         </div>
                         <div className="rad-news-carousel-cell">
 
-
                             <a className="rad-news-card"
                                href="https://newsroom.accenture.com/news/accenture-invests-in-open-cosmos-to-expand-access-to-satellite-data.htm"
                                target="_blank"
                                rel="noreferrer"
                             >
-
                                 <p className="rad-news-eyebrow">2023 September 11</p>
-
 
                                 <h3 className="rad-news-title" data-cmp-clickable
                                     data-cmp-data-layer="{&#34;news_copy_copy_copy_-card-title-bfddbfceaa&#34;:{&#34;xdm:linkURL&#34;:&#34;https://newsroom.accenture.com/news/accenture-invests-in-open-cosmos-to-expand-access-to-satellite-data.htm&#34;,&#34;analytics-engagement&#34;:&#34;true&#34;,&#34;analytics-link-type&#34;:&#34;engagement&#34;,&#34;analytics-link-name&#34;:&#34;Accenture Invests in Open Cosmos to Expand Access to Satellite Data&#34;,&#34;analytics-module-name&#34;:&#34;newscard-3&#34;,&#34;analytics-template-zone&#34;:&#34;block-accenture-news&#34;}}"> Accenture
                                     Invests in Open Cosmos to Expand Access to Satellite Data </h3>
-
                             </a>
 
                         </div>

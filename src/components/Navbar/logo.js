@@ -1,10 +1,10 @@
 import React from "react";
-import '../../clientlibs/clientlib-rad.lc-e0f7ea42ea5bb267dace06850c84b864-lc.min.css'
+import '../../clientlib-rad.lc-e0f7ea42ea5bb267dace06850c84b864-lc.min.css'
 const Logo = () => {
     return (
         <div className="cmp-global-header__logo"
              data-cmp-data-layer="{&#34;globalheader-logo-0c000cd312&#34;:{&#34;xdm:linkURL&#34;:&#34;/us-en&#34;,&#34;analytics-engagement&#34;:&#34;false&#34;,&#34;analytics-link-type&#34;:&#34;logo&#34;,&#34;analytics-link-name&#34;:&#34;accenture logo - header&#34;,&#34;analytics-module-name&#34;:&#34;top nav&#34;}}">
-            <a href="us-en.html" className="cmp-logo" data-cmp-clickable alt="Accenture Home">
+            <a className="cmp-logo" alt="Accenture Home">
                 <div className="cmp-logo__svg-wrapper">
                     <svg height="100%" viewBox="0 0 153 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <title></title>

@@ -1,5 +1,6 @@
 //Change more - Quick fix - 4/27/2023
 
+import $ from 'jquery';
 $(function() {
 //TileGrid - Rad Template - image alt for web acc
     $(".rad-card").each(function() {

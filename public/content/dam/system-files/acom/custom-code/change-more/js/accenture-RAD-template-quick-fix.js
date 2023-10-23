@@ -1,6 +1,9 @@
 // RAD triage/quick fix JS - 4/24/2023
 
 //Top Nav - Accenture Logo Temporary Fix - JPPL - 5/12/2023
+
+import $ from 'jquery';
+
 $(function(){
     $(".cmp-logo__svg-wrapper svg title").text("Accenture");
 })
@@ -13,4 +16,5 @@ $(window).on("load", function() {
             scrollTop: $(target_hash).offset().top - $(".cmp-global-header__navbar-container").height()
         }, 1000);
     }
+
 })

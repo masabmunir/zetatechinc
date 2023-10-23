@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 import Home from "./pages/home";
-import './clientlibs/clientlib-rad.lc-e0f7ea42ea5bb267dace06850c84b864-lc.min.css';
+import './clientlib-rad.lc-e0f7ea42ea5bb267dace06850c84b864-lc.min.css';
 import Banner from './components/banner';
 import ClientCarousel  from './components/ClientCarousel'
 import Footer from './components/footer'

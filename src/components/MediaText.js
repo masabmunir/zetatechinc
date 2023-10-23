@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../clientlib-rad.lc-e0f7ea42ea5bb267dace06850c84b864-lc.min.css';
 const MediaText = () =>{
 
    return(

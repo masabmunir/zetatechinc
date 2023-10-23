@@ -214,35 +214,35 @@ table{
     font-family:Graphik;
     font-style:normal;
     font-weight:400;
-    src:local("Graphik-Regular-Web"),url(clientlib-rad/resources/fonts/graphik-regular-web.woff2) format("woff2")
+    src:local("Graphik-Regular-Web"),url(../public/clientlibs/clientlib-rad/resources/fonts/graphik-regular-web.woff2) format("woff2")
 }
 @font-face{
     font-display:swap;
     font-family:Graphik;
     font-style:normal;
     font-weight:500;
-    src:local("Graphik-Medium-Web"),url(clientlib-rad/resources/fonts/graphik-medium-web.woff2) format("woff2")
+    src:local("Graphik-Medium-Web"),url(../public/clientlibs/clientlib-rad/resources/fonts/graphik-medium-web.woff2) format("woff2")
 }
 @font-face{
     font-display:swap;
     font-family:Graphik;
     font-style:normal;
     font-weight:600;
-    src:local("Graphik-Semibold-Web"),url(clientlib-rad/resources/fonts/graphik-semibold-web.woff2) format("woff2")
+    src:local("Graphik-Semibold-Web"),url(../public/clientlibs/clientlib-rad/resources/fonts/graphik-semibold-web.woff2) format("woff2")
 }
 @font-face{
     font-display:swap;
     font-family:GT Sectra Fine;
     font-style:normal;
     font-weight:300;
-    src:local("GT-Sectra-Fine-Book"),url(clientlib-rad/resources/fonts/GT-Sectra-Fine-Book.woff2) format("woff2")
+    src:local("GT-Sectra-Fine-Book"),url(../public/clientlibs/clientlib-rad/resources/fonts/GT-Sectra-Fine-Book.woff2) format("woff2")
 }
 @font-face{
     font-display:block;
     font-family:icont;
     font-style:"normal";
     font-weight:400;
-    src:local("icont"),url(clientlib-rad/resources/fonts/icont.woff2) format("woff2")
+    src:local("icont"),url(../public/clientlibs/clientlib-rad/resources/fonts/icont.woff2) format("woff2")
 }
 :root{
     --rad-spacing-sm:16px;
@@ -3528,46 +3528,46 @@ em,i{
     }
 }
 .rad-article-hero__podcast-icon-button .rad-article-hero__podcast-icon--apple{
-    background-image:url(clientlib-rad/resources/images/article-hero-podcast/apple-podcast-white.svg.tmp)
+    background-image:url(../public/clientlibs/clientlib-rad/resources/images/article-hero-podcast/apple-podcast-white.svg.tmp)
 }
 .rad-article-hero__podcast-icon-button .rad-article-hero__podcast-icon--apple:after,.rad-article-hero__podcast-icon-button:focus .rad-article-hero__podcast-icon--apple,.rad-article-hero__podcast-icon-button:hover .rad-article-hero__podcast-icon--apple{
-    background-image:url(clientlib-rad/resources/images/article-hero-podcast/apple-podcast-color.svg.tmp)
+    background-image:url(../public/clientlibs/clientlib-rad/resources/images/article-hero-podcast/apple-podcast-color.svg.tmp)
 }
 .rad-article-hero__podcast-icon-button .rad-article-hero__podcast-icon--spotify{
-    background-image:url(clientlib-rad/resources/images/article-hero-podcast/spotify-white.svg.tmp)
+    background-image:url(../public/clientlibs/clientlib-rad/resources/images/article-hero-podcast/spotify-white.svg.tmp)
 }
 .rad-article-hero__podcast-icon-button .rad-article-hero__podcast-icon--spotify:after,.rad-article-hero__podcast-icon-button:focus .rad-article-hero__podcast-icon--spotify,.rad-article-hero__podcast-icon-button:hover .rad-article-hero__podcast-icon--spotify{
-    background-image:url(clientlib-rad/resources/images/article-hero-podcast/spotify-color.svg.tmp)
+    background-image:url(../public/clientlibs/clientlib-rad/resources/images/article-hero-podcast/spotify-color.svg.tmp)
 }
 .rad-article-hero__podcast-icon-button .rad-article-hero__podcast-icon--youtube{
-    background-image:url(clientlib-rad/resources/images/article-hero-podcast/youtube-white.svg.tmp)
+    background-image:url(../public/clientlibs/clientlib-rad/resources/images/article-hero-podcast/youtube-white.svg.tmp)
 }
 .rad-article-hero__podcast-icon-button .rad-article-hero__podcast-icon--youtube:after,.rad-article-hero__podcast-icon-button:focus .rad-article-hero__podcast-icon--youtube,.rad-article-hero__podcast-icon-button:hover .rad-article-hero__podcast-icon--youtube{
-    background-image:url(clientlib-rad/resources/images/article-hero-podcast/youtube-color.svg.tmp)
+    background-image:url(../public/clientlibs/clientlib-rad/resources/images/article-hero-podcast/youtube-color.svg.tmp)
 }
 .rad-article-hero__podcast-icon-button .rad-article-hero__podcast-icon--google{
-    background-image:url(clientlib-rad/resources/images/article-hero-podcast/google-podcast-white.svg.tmp)
+    background-image:url(../public/clientlibs/clientlib-rad/resources/images/article-hero-podcast/google-podcast-white.svg.tmp)
 }
 .rad-article-hero__podcast-icon-button .rad-article-hero__podcast-icon--google:after,.rad-article-hero__podcast-icon-button:focus .rad-article-hero__podcast-icon--google,.rad-article-hero__podcast-icon-button:hover .rad-article-hero__podcast-icon--google{
-    background-image:url(clientlib-rad/resources/images/article-hero-podcast/google-podcast-color.svg.tmp)
+    background-image:url(../public/clientlibs/clientlib-rad/resources/images/article-hero-podcast/google-podcast-color.svg.tmp)
 }
 .rad-article-hero__podcast-icon-button .rad-article-hero__podcast-icon--pandora{
-    background-image:url(clientlib-rad/resources/images/article-hero-podcast/pandora-white.svg.tmp)
+    background-image:url(../public/clientlibs/clientlib-rad/resources/images/article-hero-podcast/pandora-white.svg.tmp)
 }
 .rad-article-hero__podcast-icon-button .rad-article-hero__podcast-icon--pandora:after,.rad-article-hero__podcast-icon-button:focus .rad-article-hero__podcast-icon--pandora,.rad-article-hero__podcast-icon-button:hover .rad-article-hero__podcast-icon--pandora{
-    background-image:url(clientlib-rad/resources/images/article-hero-podcast/pandora-color.svg.tmp)
+    background-image:url(../public/clientlibs/clientlib-rad/resources/images/article-hero-podcast/pandora-color.svg.tmp)
 }
 .rad-article-hero__podcast-icon-button .rad-article-hero__podcast-icon--soundcloud{
-    background-image:url(clientlib-rad/resources/images/article-hero-podcast/soundcloud-white.svg.tmp)
+    background-image:url(../public/clientlibs/clientlib-rad/resources/images/article-hero-podcast/soundcloud-white.svg.tmp)
 }
 .rad-article-hero__podcast-icon-button .rad-article-hero__podcast-icon--soundcloud:after,.rad-article-hero__podcast-icon-button:focus .rad-article-hero__podcast-icon--soundcloud,.rad-article-hero__podcast-icon-button:hover .rad-article-hero__podcast-icon--soundcloud{
-    background-image:url(clientlib-rad/resources/images/article-hero-podcast/soundcloud-color.svg.tmp)
+    background-image:url(../public/clientlibs/clientlib-rad/resources/images/article-hero-podcast/soundcloud-color.svg.tmp)
 }
 .rad-article-hero__podcast-icon-button .rad-article-hero__podcast-icon--radio{
-    background-image:url(clientlib-rad/resources/images/article-hero-podcast/radio-public-white.svg.tmp)
+    background-image:url(../public/clientlibs/clientlib-rad/resources/images/article-hero-podcast/radio-public-white.svg.tmp)
 }
 .rad-article-hero__podcast-icon-button .rad-article-hero__podcast-icon--radio:after,.rad-article-hero__podcast-icon-button:focus .rad-article-hero__podcast-icon--radio,.rad-article-hero__podcast-icon-button:hover .rad-article-hero__podcast-icon--radio{
-    background-image:url(clientlib-rad/resources/images/article-hero-podcast/radio-public-color.svg.tmp)
+    background-image:url(../public/clientlibs/clientlib-rad/resources/images/article-hero-podcast/radio-public-color.svg.tmp)
 }
 @media(min-width:1440px){
     .rad-article-hero__podcast{
@@ -6982,13 +6982,13 @@ em,i{
     justify-content:center
 }
 .rad-banner.rad-banner--background-image .rad-banner__background-color-container{
-    background-image:url(clientlib-rad/resources/images/banner/Banner_Mobile_Illustration.svg.tmp);
+    background-image:url(../public/clientlibs/clientlib-rad/resources/images/banner/Banner_Mobile_Illustration.svg.tmp);
     background-position:100%;
     background-repeat:no-repeat
 }
 @media(min-width:600px){
     .rad-banner.rad-banner--background-image .rad-banner__background-color-container{
-        background-image:url(clientlib-rad/resources/images/banner/Banner_Tablet_Illustration.svg.tmp)
+        background-image:url(../public/clientlibs/clientlib-rad/resources/images/banner/Banner_Tablet_Illustration.svg.tmp)
     }
 }
 @media(min-width:1024px){
@@ -6996,7 +6996,7 @@ em,i{
         background-image:none
     }
     .rad-banner.rad-banner--background-image .rad-banner__content-container{
-        background-image:url(clientlib-rad/resources/images/banner/Banner_Desktop_Left-Illustration.svg.tmp);
+        background-image:url(../public/clientlibs/clientlib-rad/resources/images/banner/Banner_Desktop_Left-Illustration.svg.tmp);
         background-position:100%;
         background-repeat:no-repeat
     }
@@ -7008,7 +7008,7 @@ em,i{
 }
 @media(min-width:1024px){
     .rad-banner.rad-banner--background-image.rad-banner--centered .rad-banner__background-color-container{
-        background-image:url(clientlib-rad/resources/images/banner/Banner_Desktop_Center-Illustration.svg.tmp);
+        background-image:url(../public/clientlibs/clientlib-rad/resources/images/banner/Banner_Desktop_Center-Illustration.svg.tmp);
         background-position:50%
     }
 }
