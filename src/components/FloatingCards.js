@@ -7,7 +7,6 @@ const FloatingCard = () => {
         <>
             <div className="floatingcardblock">
 
-
                 <div id="floatingcardblock-db5a7076ff" className="rad-awards"
                      data-cmp-data-layer="{&#34;floatingcardblock-db5a7076ff&#34;:{&#34;@type&#34;:&#34;cio-sites/components/rad/blocks/floatingcardblock&#34;,&#34;analytics-module-name&#34;:&#34;floatingcardblock-1&#34;,&#34;analytics-template-zone&#34;:&#34;block-global-recognition-and-awards&#34;}}">
                     <div className="rad-awards__stage">
@@ -44,7 +43,6 @@ const FloatingCard = () => {
                                 </div>
                             </div>
 
-
                         </div>
                         <div className="cmp-floating-awards-card">
                             <div id="floatingawardcards-f31e5d9a9a"
@@ -78,7 +76,6 @@ const FloatingCard = () => {
                                 </div>
                             </div>
 
-
                         </div>
                         <div className="cmp-floating-awards-card">
                             <div id="floatingawardcards-93d774216a"
@@ -110,15 +107,9 @@ const FloatingCard = () => {
                                     </a>
                                 </div>
                             </div>
-
-
                         </div>
-
                     </div>
-
                 </div>
-
-
             </div>
 
         </>

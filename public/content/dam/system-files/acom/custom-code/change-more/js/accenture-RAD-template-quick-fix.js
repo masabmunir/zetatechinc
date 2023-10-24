@@ -2,8 +2,8 @@
 
 //Top Nav - Accenture Logo Temporary Fix - JPPL - 5/12/2023
 
-import $ from 'jquery';
-
+// import $ from 'jquery';
+import $ from '/js/libs/jquery/dist/jquery.js'
 $(function(){
     $(".cmp-logo__svg-wrapper svg title").text("Accenture");
 })

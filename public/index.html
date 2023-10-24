@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -10,11 +9,10 @@
       content="Web site created using create-react-app"/>
 
     <!-- jQuery scripts -->
-    <script src="/assets/js/granite/jquery.lc-7842899024219bcbdb5e72c946870b79-lc.min.js"></script>
-    <script src="/assets/js/granite/utils.lc-e7bf340a353e643d198b25d0c8ccce47-lc.min.js"></script>
-    <script src="/assets/js/granite/jquery/granite.lc-543d214c88dfa6f4a3233b630c82d875-lc.min.js"></script>
-    <script src="/assets/js/foundation/clientlibs/jquery.lc-dd9b395c741ce2784096e26619e14910-lc.min.js"></script>
-
+    <script type="text/javascript" src="/assets/js/foundation/clientlibs/jquery.lc-dd9b395c741ce2784096e26619e14910-lc.min.js"></script>
+    <script type="text/javascript" src="/assets/js/granite/jquery.lc-7842899024219bcbdb5e72c946870b79-lc.min.js"></script>
+    <script type="text/javascript" src="/assets/js/granite/utils.lc-e7bf340a353e643d198b25d0c8ccce47-lc.min.js"></script>
+    <script type="text/javascript" src="/assets/js/granite/jquery/granite.lc-543d214c88dfa6f4a3233b630c82d875-lc.min.js"></script>
 
 
     <link rel="preload" as="font" type="font/woff2" crossorigin href="clientlibs/clientlib-site/resources/fonts/graphik-semibold-web.woff2"/>
@@ -24,9 +22,8 @@
 
     <!-- Manifest and stylesheets -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-<!--    <link rel="stylesheet" href="/src/clientlib-rad.lc-e0f7ea42ea5bb267dace06850c84b864-lc.min.css" type="text/css">-->
-<!--    <link rel="stylesheet" href="/src/clientlib-base.lc-99e6138fc3579fe6a02605a8fc47cd6b-lc.min.css" type="text/css">-->
-    <link rel="stylesheet" href="/clientlibs/clientlib-site-above-the-fold-japan.lc-6a337536ddc07dc8212c064f209f1239-lc.min.css.tmp" type="text/css">
+
+    <link rel="stylesheet" href="/clientlibs/clientlib-site-above-the-fold-japan.lc-6a337536ddc07dc8212c064f209f1239-lc.min.css.tmp" type="text/css" />
 
     <script type="text/javascript" src="clientlibs/clientlib-rad.lc-e53f39af418ce6145e504ac6965de526-lc.min.js" async></script>
 
@@ -118,8 +115,6 @@
 
     <div id="root" ></div>
 
-<!--    <script defer src="../src/clientlibs/clientlib-rad-base.lc-e3ee80d8770b608fce0f7e6dd2232209-lc.min.js"></script>-->
-
 
     <!-- customfooter -->
     <script defer src="clientlibs/clientlib-base.lc-012ae2b1d05e8ff137d70f70afce04c9-lc.min.js"></script>
@@ -134,7 +129,7 @@
       window.addEventListener('DOMContentLoaded',()=>{
         const form = document.querySelectorAll("form");
         if (form.length > 0) {
-          var rcScript = document.createElement("script");
+          let rcScript = document.createElement("script");
           rcScript.setAttribute("type","text/javascript");
           rcScript.setAttribute("data-document-language","true");
           rcScript.setAttribute("charset","UTF-8");

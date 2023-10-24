@@ -1,5 +1,6 @@
 
-import $ from 'jquery';
+import $ from '/js/libs/jquery/dist/jquery.js'
+
 $(function() {
 //TileGrid - Rad Template - image alt for web acc
     $(".rad-card").each(function() {

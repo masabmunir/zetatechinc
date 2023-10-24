@@ -177,7 +177,6 @@ const ClientCarousel  = () => {
                                     </a>
                                 </div>
 
-
                             </div>
                             <div className="rad-client-carousel__cell">
                                 <div id="carouselslide-77146a683b-slide" className="rad-client-carousel__content">
