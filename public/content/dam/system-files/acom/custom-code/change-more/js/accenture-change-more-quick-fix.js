@@ -1,4 +1,3 @@
-//Change more - Quick fix - 4/27/2023
 
 import $ from 'jquery';
 $(function() {
