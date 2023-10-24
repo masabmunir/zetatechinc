@@ -1,3 +1,4 @@
+import React from "react";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Header from "./components/Navbar/header";
 import Career from "./pages/careers";
@@ -5,7 +6,6 @@ import About from "./pages/about";
 import Industries from "./pages/industries";
 import Inside from "./pages/inside";
 import Services from "./pages/service";
-import React from "react";
 import Home from "./pages/home";
 
 function AllRoutes() {

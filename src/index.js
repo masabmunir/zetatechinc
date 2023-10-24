@@ -3,8 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import 'flickity/dist/flickity.min.css';
-import 'flickity/dist/flickity.pkgd.js';
+
 
 const root = ReactDOM.createRoot(
     document.getElementById("root")
