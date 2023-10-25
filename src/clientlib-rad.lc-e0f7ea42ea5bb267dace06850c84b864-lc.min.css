@@ -10719,7 +10719,8 @@ html.cmp-global-header--menu-open{
     position:relative
 }
 .rad-news .rad-news-slideshow{
-    pointer-events:none
+    pointer-events:none;
+    display: flex;
 }
 .rad-news .flickity-page-dots{
     -webkit-box-pack:center;

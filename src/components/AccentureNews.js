@@ -15,10 +15,11 @@ const Accenture = () => {
                 data-cmp-data-layer="{...}"
             >
                 <div className="rad-news-header">Accenture news</div>
-                <button className="rad-icon-button rad-news-play-pause rad-carousel--six-plus-cells__hidden">
-                    <div className="rad-icon-button__text">Pause</div>
-                    <div className="rad-icon rad-icon__pause-default" aria-hidden="true"></div>
-                </button>
+                {/*<button className="rad-icon-button rad-news-play-pause rad-carousel--six-plus-cells__hidden">*/}
+                {/*    <div className="rad-icon-button__text">Pause</div>*/}
+                {/*    <div className="rad-icon rad-icon__pause-default" aria-hidden="true"></div>*/}
+                {/*</button>*/}
+                <marquee>
                 <div className="rad-news-carousel rad-news-slideshow" id="news-f8be55a909-items" tabIndex="-1">
                     {[...Array(3)].map((_, index) => (
                         <div className="rad-news-carousel-cell" key={index}>
@@ -31,12 +32,13 @@ const Accenture = () => {
                             >
                                 <p className="rad-news-eyebrow">2023 September {28 - index * 10}</p>
                                 <h3 className="rad-news-title" data-cmp-clickable data-cmp-data-layer="{...}">
-                                    Accenture Reports Fourth-Quarter and Strong Full-Year Fiscal 2023 Results
+                                    Accenture Reports Fourth-Quarter and Strong<br /> Full-Year Fiscal 2023 Results
                                 </h3>
                             </a>
                         </div>
                     ))}
                 </div>
+                </marquee>
                 <div className="rad__range-input-slider-container rad-carousel--six-plus-cells__only">
                     <input
                         className="rad__range-input-slider-for-carousel"
