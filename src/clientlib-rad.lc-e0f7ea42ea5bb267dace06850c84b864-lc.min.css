@@ -2315,6 +2315,7 @@ em,i{
     transition:top .2s,background-color .2s
 }
 .rad-360-value-title{
+    color: white;
     padding-bottom:3rem;
     padding-left:var(--rad-spacing-sm);
     padding-right:var(--rad-spacing-sm);

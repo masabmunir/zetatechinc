@@ -101,7 +101,7 @@
 
 @font-face {
   font-family: newYork;
-  src: url("/assets/fonts/newyork/FontsFree-Net-NewYork.ttf");
+
   font-weight: 400;
 }
 /*----------------------------------------*/
@@ -5957,12 +5957,12 @@ img {
   }
 }
 .hero__area-2 .sec-title-wrapper .bg-shape {
-  background-image: url(../imgs/shape/10.png);
+
   background-repeat: no-repeat;
   background-position: right top;
 }
 .hero__area-3 {
-  padding-top: 190px;
+  padding-top: 125px;
   padding-bottom: 125px;
   position: relative;
   overflow: hidden;
@@ -7348,7 +7348,7 @@ img {
   text-transform: uppercase;
 }
 .rollslide_title-1 {
-  color: var(--black-2);
+  color: white;
   font-size: 245px;
   line-height: 0.75;
   text-transform: uppercase;
@@ -10361,7 +10361,6 @@ img {
 
 .research__area {
   background-color: var(--pink-3);
-  background-image: url(../imgs/shape/8.png);
   background-repeat: no-repeat;
   background-position: 200px calc(100% - 150px);
 }
@@ -31066,7 +31065,6 @@ ul.mega-menu-2.woocomerce-megamenu {
 .woocomerce__checkout-checker label::after {
   content: "";
   position: absolute;
-  background-image: url(../imgs/woocomerce/check-sign.png);
   top: 3px;
   left: 6px;
   width: 100%;
