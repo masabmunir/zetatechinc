@@ -11,9 +11,6 @@ const banner = () => {
                             <div className="swiper-slide">
                                 <h2 className="rollslide_title-1">Selected <span>Work</span></h2>
                             </div>
-                            <div className="swiper-slide">
-                                <h2 className="rollslide_title-1">Selected <span>Work</span></h2>
-                            </div>
                         </div>
                     </div>
                 </div>

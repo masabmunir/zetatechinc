@@ -24,6 +24,7 @@
     "react-flickity-component": "^4.0.7",
     "react-fontawesome": "^1.7.1",
     "react-icons": "^4.11.0",
+    "react-multi-carousel": "^2.8.4",
     "react-parallax-mouse": "^2.0.1",
     "react-router-dom": "^6.17.0",
     "react-scripts": "5.0.1",
