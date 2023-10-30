@@ -7508,6 +7508,7 @@ em,i{
     color:#a2a2a0
 }
 .rad-footer__copyright{
+    color: white;
     font-size:0.875rem;
     font-weight:500;
     font-weight:400;
@@ -7517,11 +7518,13 @@ em,i{
 }
 @media(min-width:1440px){
     .rad-footer__copyright{
+        color: white;
         font-size:calc(0.875rem + 0.97222vw - 14px)
     }
 }
 @media(min-width:1920px){
     .rad-footer__copyright{
+    ;
         font-size:1.1666666667rem
     }
 }
@@ -10419,6 +10422,7 @@ html.cmp-global-header--menu-open{
     }
 }
 .rad-mixed-media-and-text__text .rad-mixed-media-and-text__description{
+    color: white;
     font-size:0.875rem;
     font-weight:500;
     font-weight:400;
@@ -10885,6 +10889,7 @@ html.cmp-global-header--menu-open{
     outline-offset:.0625rem
 }
 .rad-news-card .rad-news-eyebrow{
+    color: white;
     font-size:0.875rem;
     font-weight:500;
     letter-spacing:-0.005em;

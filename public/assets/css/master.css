@@ -650,36 +650,7 @@ img {
   z-index: 1;
 }
 
-.line {
-  position: relative;
-}
-.line::before {
-  position: absolute;
-  content: "";
-  width: 1px;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: var(--white-4);
-}
-.line::after {
-  position: absolute;
-  content: "";
-  width: 1px;
-  height: 100%;
-  left: calc(50% - 1px);
-  top: 0;
-  background: var(--white-4);
-}
-.line-3 {
-  position: absolute;
-  content: "";
-  width: 1px;
-  height: 100%;
-  right: 0;
-  top: 0;
-  background: var(--white-4);
-}
+
 
 .shape {
   position: absolute;
@@ -2173,6 +2144,8 @@ img {
 
 .btn-item {
   position: absolute;
+  color: white;
+  margin-left:10rem;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2213,7 +2186,7 @@ img {
   font-weight: 500;
   font-size: 60px;
   line-height: 1;
-  color: var(--black-2);
+  color: white;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .sec-title {
@@ -2445,7 +2418,7 @@ img {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
-  color: var(--black-3);
+  color: white;
   padding-bottom: 15px;
   text-transform: capitalize;
 }
@@ -2454,7 +2427,8 @@ img {
   font-weight: 500;
   font-size: 80px;
   line-height: 1;
-  color: var(--black);
+  color: white;
+  margin-left: 10rem;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero-title {
@@ -6853,6 +6827,7 @@ img {
   }
 }
 .hero__about-text {
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6869,6 +6844,7 @@ img {
   }
 }
 .hero__about-text p {
+  color:white;
   font-size: 18px;
   line-height: 1.4;
   padding-left: 80px;
@@ -6900,15 +6876,7 @@ img {
           align-items: center;
   position: relative;
 }
-.hero__about-award::before {
-  position: absolute;
-  content: "";
-  left: 75px;
-  top: 50%;
-  width: 250px;
-  height: 1px;
-  background-color: var(--white-4);
-}
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero__about-award::before {
     left: 30px;
@@ -15516,7 +15484,7 @@ img {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
-  color: var(--black-3);
+  color: white;
   padding-bottom: 20px;
 }
 @media (max-height: 1365px) {
