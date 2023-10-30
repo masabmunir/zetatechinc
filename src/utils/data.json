@@ -34,7 +34,18 @@
       "time": "2d ago"
     }
   ],
-  "radValue": [
-    
-  ]
+
+  "radValue": {
+    "className": "rad-360-value-title",
+    "children": [
+      {
+        "className": "rad-360-value-title__header",
+        "data-cmp-data-layer": "{\"valuetitle-621c3211a4\":{\"@type\":\"cio-sites/components/rad/valuetitle\",\"analytics-module-name\":\"valuetitle-1\",\"analytics-template-zone\":\"block-360-value-in-action\"}}",
+        "id": "valuetitle-621c3211a4"
+      }
+    ]
+  }
+
 }
+
+

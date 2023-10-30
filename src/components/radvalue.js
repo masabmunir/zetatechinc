@@ -1,10 +1,12 @@
 import React from 'react';
 import '../clientlib-rad.lc-e0f7ea42ea5bb267dace06850c84b864-lc.min.css';
+import Data from '../utils/data.json';
 
 const radValue = ()=>{
     return(
         <>
-            <div className="rad-360-value-title">
+            <div className={Data.radValue.className}>
+
                 <div className="rad-360-value-title__header"
                      data-cmp-data-layer="{&#34;valuetitle-621c3211a4&#34;:{&#34;@type&#34;:&#34;cio-sites/components/rad/valuetitle&#34;,&#34;analytics-module-name&#34;:&#34;valuetitle-1&#34;,&#34;analytics-template-zone&#34;:&#34;block-360-value-in-action&#34;}}"
                      id="valuetitle-621c3211a4">
@@ -37,6 +39,8 @@ const radValue = ()=>{
                             </svg>
                         </div>
                     </div>
+
+
                     <div className="rad-360-value-title__header-second-line">
                         <div className="rad-360-value-title__header-value-wrapper">
                             <svg className="rad-360-value-title__header-value" viewBox="0 0 367 88"
