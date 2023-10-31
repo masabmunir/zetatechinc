@@ -11082,6 +11082,7 @@ img {
   color: var(--black-3);
 }
 .testimonial__text-2 {
+  max-width: 56rem;
   font-weight: 300;
   font-size: 22px;
   line-height: 1.4;
@@ -11176,8 +11177,8 @@ img {
 }
 .testimonial__pagination {
   position: absolute;
-  right: 0;
-  top: calc(50% - 105px);
+  right: 200px;
+  /*top: calc(50% - 105px);*/
   -webkit-transform: translate(100%, -50%);
           transform: translate(100%, -50%);
 }
@@ -11225,7 +11226,7 @@ img {
   width: 60px;
   height: 60px;
   border: 1px solid var(--gray-7);
-  color: var(--gray-7);
+  color: white;
   border-radius: 100%;
   display: -webkit-box;
   display: -ms-flexbox;

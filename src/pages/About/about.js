@@ -4,6 +4,7 @@ import Video from './video'
 import Story from './story'
 import Images from './image'
 import ProjectDetails from './projdetail'
+import Testimonial from "./testimonial";
 const About = () => {
     return (
         <>
@@ -27,6 +28,10 @@ const About = () => {
                 <div className="container g-0 line pb-140 pt-140">
                    <ProjectDetails/>
                 </div>
+            </section>
+
+            <section className="testimonial__area-2">
+                <Testimonial/>
             </section>
         </>
     );

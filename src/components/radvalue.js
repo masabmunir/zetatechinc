@@ -7,15 +7,15 @@ const radValue = ()=>{
         <>
             <div>
                 <div className={Data.radValue.className}>
-                    {Data.radValue.children.map((header, headerIndex) => (
-                        <div key={headerIndex} className={header.className} id={header.id} data-cmp-data-layer={header['data-cmp-data-layer']}>
-                            {header.children.map((line, lineIndex) => (
-                                <div key={lineIndex} className={line.className}>
-                                    {line.children.map((wrapper, wrapperIndex) => (
-                                        <div key={wrapperIndex} className={wrapper.className}>
-                                            {wrapper.children.map((svg, svgIndex) => (
+                    {Data.radValue?.children?.map((header, headerIndex) => (
+                        <div key={headerIndex} className={header?.className} id={header?.id} data-cmp-data-layer={header?.['data-cmp-data-layer']}>
+                            {header?.children?.map((line, lineIndex) => (
+                                <div key={lineIndex} className={line?.className}>
+                                    {line?.children?.map((wrapper, wrapperIndex) => (
+                                        <div key={wrapperIndex} className={wrapper?.className}>
+                                            {wrapper?.children?.map((svg, svgIndex) => (
                                                 <svg key={svgIndex} {...svg}>
-                                                    {svg.children.map((path, pathIndex) => (
+                                                    {svg?.children?.map((path, pathIndex) => (
                                                         <path key={pathIndex} {...path} />
                                                     ))}
                                                 </svg>
@@ -26,7 +26,7 @@ const radValue = ()=>{
                             ))}
                         </div>
                     ))}
-                    <h3 className="rad-360-value-title__sub-header">{Data.radValue.children[1].children[0]}</h3>
+                    <h3 className="rad-360-value-title__sub-header">{Data.radValue?.children[1]?.children[0]}</h3>
                 </div>
             </div>
 
