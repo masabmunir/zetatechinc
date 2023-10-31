@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 const Testimonial = ()=>{
     const testimonials = [
         // Add more testimonial objects as needed
@@ -9,7 +9,7 @@ const Testimonial = ()=>{
             role: 'CEO, Agency',
         },
         {
-            title: '2nd',
+            title: 'Web Services',
             text: 'We were there right at the beginning just when the concept for search engine optimisation...',
             author: 'Adam Syndera',
             role: 'CEO, Agency',
@@ -24,8 +24,6 @@ const Testimonial = ()=>{
     const handlePrev = () => {
         setCurrentSlide((prevSlide) => (prevSlide - 1 + testimonials.length) % testimonials.length);
     };
-
-
 
 
     return(
@@ -53,12 +51,14 @@ const Testimonial = ()=>{
                                         <h4 className="testimonial__role">{testimonials[currentSlide].role}</h4>
                                     </div>
                                 </div>
-                                {/* Add more slides as needed */}
+
                             </div>
 
-                            <div className="swiper-button-prev" onClick={handlePrev} style={{backgroundColor: "red"}}>Prev</div>
-                            <div className="swiper-button-next" onClick={handleNext} style={{backgroundColor: "red"}}>Next</div>
-                        </div>
+
+                            <div className="swiper-button-prev" onClick={handlePrev} style={{backgroundColor:"red",marginTop: "271rem",marginLeft:"45rem"}}></div>
+                            <div className="swiper-button-next" onClick={handleNext} style={{marginTop: "271rem", marginRight: "14rem"}}></div>
+                            </div>
+
                     </div>
                 </div>
             </div>
