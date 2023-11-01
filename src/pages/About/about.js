@@ -5,6 +5,8 @@ import Story from './story'
 import Images from './image'
 import ProjectDetails from './projdetail'
 import Testimonial from "./testimonial";
+import CTA from './cta'
+import Footer from "./footer";
 const About = () => {
     return (
         <>
@@ -33,6 +35,16 @@ const About = () => {
             <section className="testimonial__area-2">
                 <Testimonial/>
             </section>
+
+            <section className="cta__area">
+                <div className="container line pb-110 dark-p">
+                    <div className="line-3"></div>
+                    <CTA/>
+                </div>
+            </section>
+
+            <Footer/>
+
         </>
     );
 };

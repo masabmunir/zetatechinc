@@ -51,14 +51,11 @@ const Testimonial = ()=>{
                                         <h4 className="testimonial__role">{testimonials[currentSlide].role}</h4>
                                     </div>
                                 </div>
-
                             </div>
 
-
-                            <div className="swiper-button-prev" onClick={handlePrev} style={{backgroundColor:"red",marginTop: "271rem",marginLeft:"45rem"}}></div>
+                            <div className="swiper-button-prev" onClick={handlePrev} style={{marginTop: "271rem",marginLeft:"45rem"}}></div>
                             <div className="swiper-button-next" onClick={handleNext} style={{marginTop: "271rem", marginRight: "14rem"}}></div>
                             </div>
-
                     </div>
                 </div>
             </div>
