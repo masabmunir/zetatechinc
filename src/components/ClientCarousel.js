@@ -56,7 +56,7 @@ const ClientCarousel = () => {
 
     return (
         <section className="game-section">
-            <h2 className="line-title">trending games</h2>
+
             <OwlCarousel className="owl-carousel custom-carousel owl-theme" {...owlOptions} loop>
                 {items.map((item, index) => (
                     <div

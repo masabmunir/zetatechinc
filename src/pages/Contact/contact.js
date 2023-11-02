@@ -2,6 +2,7 @@ import React from "react";
 import Heading from './heading'
 import Contactinfo from "./contactinfo";
 import Formarea from "./formarea";
+import Footer from "./footer";
 const Contact = () => {
     return (
         <>
@@ -18,6 +19,7 @@ const Contact = () => {
                     </div>
                 </div>
             </section>
+            <Footer/>
         </>
     );
 };

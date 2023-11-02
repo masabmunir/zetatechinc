@@ -1,0 +1,4 @@
+.cmp-global-header__search input::placeholder,
+.cmp-global-header__search input {
+    color: #fff; /* Set the desired color, in this case, white */
+}

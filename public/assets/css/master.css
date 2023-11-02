@@ -20112,10 +20112,11 @@ img {
 .contact__text p {
   font-size: 18px;
   line-height: 1.4;
-  color: white;
+  color: var(--gray-2);
 }
 .contact__btm {
   padding-top: 65px;
+  display: contents;
 }
 @media only screen and (max-width: 767px) {
   .contact__btm {
@@ -20124,7 +20125,7 @@ img {
 }
 .contact__info {
   padding-top: 15px;
-  margin-right: 6rem;
+  /*margin-right: 4rem;*/
 }
 @media only screen and (max-width: 767px) {
   .contact__info {

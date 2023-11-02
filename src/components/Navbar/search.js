@@ -1,17 +1,29 @@
-import React from "react";
+import React, {useState} from "react";
 import '../../clientlib-rad.lc-e0f7ea42ea5bb267dace06850c84b864-lc.min.css'
+import '../../styling/GlobalHeader.css'
 const Search = () => {
+    const [searchQuery, setSearchQuery] = useState("");
 
+
+    const handleSearch = () => {
+
+        console.log("Search query:", searchQuery);
+        // You can redirect to the search page or perform an API call, etc.
+    };
     return (
         <>
             <div className="cmp-global-header__utility-nav">
 
-                <div className="cmp-global-header__search"
-                     data-cmp-data-layer="{&#34;globalheader-searchLink-ff8d05c6c8&#34;:{&#34;xdm:linkURL&#34;:&#34;/us-en/search/ai-search&#34;,&#34;analytics-engagement&#34;:&#34;false&#34;,&#34;analytics-link-type&#34;:&#34;search activity&#34;,&#34;analytics-link-name&#34;:&#34;initiated search - click/tap&#34;,&#34;analytics-module-name&#34;:&#34;top nav&#34;}}">
-                    <a href="/"  aria-label="search-aria"
-                       data-cmp-clickable></a>
+                <div className="cmp-global-header__search">
+                    <input
+                        type="text"
+                        placeholder="Search..."
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        aria-label="search-aria"
+                    />
+                    <a onClick={handleSearch} data-cmp-clickable aria-label="search-aria" className="cmp-global-header__search" > </a>
                 </div>
-
 
 
 

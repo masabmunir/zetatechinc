@@ -1,5 +1,4 @@
-import React from "react";
-import '../../styling/_footer.scss'
+import React from 'react'
 
 const footer = ()=>{
     return(
@@ -54,29 +53,6 @@ const footer = ()=>{
                                         </ul>
                                     </div>
 
-                                    <div className="footer__widget-4">
-                                        <h2 className="project-title">Have a project in your mind?</h2>
-                                        <div className="btn_wrapper">
-                                            <a href="http://localhost:3000/contact"
-                                               className="wc-btn-primary btn-hover btn-item"><span></span> contact us <i
-                                                className="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                        <h3 className="contact-time">09 : 00 AM - 10 : 30 PM</h3>
-                                        <h4 className="contact-day">Saturday - Thursday</h4>
-                                    </div>
-
-                                    <div className="footer__copyright">
-                                        <p>© 2022 - 2025 | Alrights reserved by <a href="http://localhost:3000/contact" target="_blank">Wealcoder</a>
-                                        </p>
-                                    </div>
-
-                                    <div className="footer__subscribe">
-                                        <form action="#">
-                                            <input type="email" name="email" placeholder="Enter your email"/>
-                                            <button type="submit" className="subs-btn"><i
-                                                className="fa-solid fa-paper-plane"></i></button>
-                                        </form>
-                                    </div>
                                 </div>
                             </div>
                         </div>
