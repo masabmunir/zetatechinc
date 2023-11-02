@@ -18,8 +18,8 @@ const Navbar = () => {
                     <NavLink to="/career" activestyle="true">
                         Careers
                     </NavLink>
-                    <NavLink to="/industries" activestyle="true">
-                        Industries
+                    <NavLink to="/contact" activestyle="true">
+                        Contact
                     </NavLink>
                     <NavLink to="/inside" activestyle="true">
                         Inside

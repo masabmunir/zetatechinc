@@ -4,7 +4,7 @@ import Data from '../utils/data.json'
 const banner = () => {
     return (
         <>
-            <marquee>
+        <marquee>
             <section className="hero__area-3" style={{display:'inline-flex'}} >
                 <div className="row" >
                     <div className="swiper roll__slider2">
@@ -16,7 +16,7 @@ const banner = () => {
                     </div>
                 </div>
             </section>
-            </marquee>
+        </marquee>
         </>
     );
 };

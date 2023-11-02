@@ -66,8 +66,7 @@ const footer = ()=>{
                                     </div>
 
                                     <div className="footer__copyright">
-                                        <p>© 2022 - 2025 | Alrights reserved by <a href="https://dev.wealcoder.com/"
-                                                                                   target="_blank">Wealcoder</a>
+                                        <p>© 2022 - 2025 | Alrights reserved by <a href="https://dev.wealcoder.com/" target="_blank">Wealcoder</a>
                                         </p>
                                     </div>
 

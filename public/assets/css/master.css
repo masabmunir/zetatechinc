@@ -2212,7 +2212,7 @@ img {
   font-weight: 500;
   font-size: 120px;
   line-height: 0.9;
-  color: var(--black-2);
+  color: white;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1919px) {
   .sec-title-2 {
@@ -7317,7 +7317,7 @@ img {
 }
 .rollslide_title-1 {
   color: white;
-  font-size: 245px;
+  font-size: 15rem;
   line-height: 0.75;
   text-transform: uppercase;
 }
@@ -20112,6 +20112,7 @@ img {
 .contact__text p {
   font-size: 18px;
   line-height: 1.4;
+  color: white;
 }
 .contact__btm {
   padding-top: 65px;
@@ -20123,6 +20124,7 @@ img {
 }
 .contact__info {
   padding-top: 15px;
+  margin-right: 6rem;
 }
 @media only screen and (max-width: 767px) {
   .contact__info {
@@ -20133,7 +20135,7 @@ img {
   font-weight: 500;
   font-size: 26px;
   line-height: 1.2;
-  color: var(--black-2);
+  color: white;
   padding-bottom: 30px;
 }
 .contact__info ul li a {
@@ -20144,7 +20146,7 @@ img {
   font-weight: 300;
   font-size: 18px;
   line-height: 1.5;
-  color: var(--black-2);
+  color: white;
   display: block;
   margin-bottom: 10px;
 }
@@ -20158,7 +20160,7 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--black-2);
+  color: white;
   border: none;
   border-bottom: 1px solid var(--gray);
   padding: 15px 0;
@@ -20199,11 +20201,12 @@ img {
   opacity: 1;
 }
 .contact__form input::-moz-placeholder, .contact__form textarea::-moz-placeholder {
-  color: var(--black-2);
+  color: white;
   opacity: 1;
 }
 .contact__form input:-ms-input-placeholder, .contact__form textarea:-ms-input-placeholder {
-  color: var(--black-2);
+  color: white;
+
   opacity: 1;
 }
 .contact__form input::-ms-input-placeholder, .contact__form textarea::-ms-input-placeholder {
@@ -20212,7 +20215,8 @@ img {
 }
 .contact__form input::placeholder,
 .contact__form textarea::placeholder {
-  color: var(--black-2);
+  color: white;
+
   opacity: 1;
 }
 .contact__form textarea {

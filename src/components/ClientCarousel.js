@@ -1,53 +1,79 @@
-import React from 'react';
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
+import React, {useState} from 'react';
+import '../styling/clientcarousel.css'
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 
-const imageArray = [
-    'https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Barlcays-Generative-AI%3Arad-3x2?ts=1696990328224&dpr=off',
-    'https://preview1.assetsadobe.com/is/image/accenture/Cybersecurity-in-orbit-Not-Used%3Arad-3x2?ts=1697180660956&dpr=off',
-    'https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Father-Daughter-Breakfast-768x768%3Arad-3x2?ts=1697180881534&dpr=off',
-     'https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Sustainability-Feeding-The-World%3Arad-3x2?ts=1696022628310&dpr=off'
-]
-const ClientCarousel  = (props) => {
-    const responsive = {
-        desktop: {
-            breakpoint: { max: 3000, min: 1024 },
-            items: 3,
-            slidesToSlide: 3 // optional, default to 1.
-        },
-        tablet: {
-            breakpoint: { max: 1024, min: 464 },
-            items: 2,
-            slidesToSlide: 2 // optional, default to 1.
-        },
-        mobile: {
-            breakpoint: { max: 464, min: 0 },
-            items: 1,
-            slidesToSlide: 1 // optional, default to 1.
-        }
+const ClientCarousel = () => {
+    const [activeItem, setActiveItem] = useState(0);
+
+    const handleItemClick = (index) => {
+        console.log("index",index)
+        setActiveItem( index);
     };
+   console.log("index ::",activeItem)
+    const owlOptions = {
+        loop: true,
+        onChanged: (e) => {
+            console.log(("e index",e.item.index))
+            if(e.item.index === 0){
+                setActiveItem(e.item.index-1)
+            } else{
+            setActiveItem(e.item.index-1)
+        }
+        }
 
-    return(
-        <Carousel
-            swipeable={false}
-            draggable={false}
-            showDots={true}
-            responsive={responsive}
-            ssr={true} // means to render carousel on server-side.
-            infinite={true}
-            keyBoardControl={true}
-            containerClass="carousel-container"
-            removeArrowOnDeviceType={["tablet", "mobile"]}
-            deviceType={props.deviceType}
-            itemClass="carousel-item-padding-40-px"
-        >
-            {imageArray.map((imageUrl, index) => (
-                <div key={index} style={{margin:'20px'}}>
-                    <img alt={`image${index + 1}`} src={imageUrl} />
-                </div>
-            ))}
-        </Carousel>
-    )
+    };
+    const items = [
+        {
+            backgroundImage: "url(https://www.yudiz.com/codepen/expandable-animated-card-slider/dota-2.jpg)",
+            title: "Dota 2",
+            description: "Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III."
+        },
+
+        {
+            backgroundImage: "url(https://www.yudiz.com/codepen/expandable-animated-card-slider/winter-3.jpg)",
+            title: "The Witcher 3",
+            description: "The Witcher 3 is a multiplayer online battle arena by Valve. The game is a sequel to Defense\n" +
+                "          of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III."
+        },
+
+        {
+            backgroundImage:"url(https://www.yudiz.com/codepen/expandable-animated-card-slider/rdr-2.jpg)",
+            title: "RDR 2",
+            description: "RDR 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the\n" +
+                "          Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III."
+        },
+
+        {
+            backgroundImage: "url(https://www.yudiz.com/codepen/expandable-animated-card-slider/pubg.jpg)",
+            title: "PUBG Mobile",
+            description: "PUBG 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the\n" +
+                "          Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III."
+        }
+
+    ];
+
+    return (
+        <section className="game-section">
+            <h2 className="line-title">trending games</h2>
+            <OwlCarousel className="owl-carousel custom-carousel owl-theme" {...owlOptions} loop>
+                {items.map((item, index) => (
+                    <div
+                        key={index}
+                        className={`item active`}
+                        style={{ backgroundImage: item.backgroundImage }}
+                        onClick={() => setActiveItem(index)}
+                    >
+                        <div className="item-desc">
+                            <h3>{item.title}</h3>
+                            {index === activeItem && <p>{item.description}</p>}
+                        </div>
+                    </div>
+                ))}
+            </OwlCarousel>
+        </section>
+    );
 }
 
 export default ClientCarousel;
