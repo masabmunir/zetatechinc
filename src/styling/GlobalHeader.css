@@ -2,3 +2,8 @@
 .cmp-global-header__search input {
     color: #fff; /* Set the desired color, in this case, white */
 }
+
+.cmp-global-header__search input {
+    padding-left: 10px;  /* Adjust the left padding as needed */
+    padding-right: 10px; /* Adjust the right padding as needed */
+}

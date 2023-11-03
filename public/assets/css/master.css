@@ -20110,6 +20110,7 @@ img {
   }
 }
 .contact__text p {
+  margin-bottom: 6rem;
   font-size: 18px;
   line-height: 1.4;
   color: var(--gray-2);

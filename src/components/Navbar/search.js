@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import '../../clientlib-rad.lc-e0f7ea42ea5bb267dace06850c84b864-lc.min.css'
 import '../../styling/GlobalHeader.css'
 const Search = () => {
     const [searchQuery, setSearchQuery] = useState("");
@@ -8,8 +7,15 @@ const Search = () => {
     const handleSearch = () => {
 
         console.log("Search query:", searchQuery);
-        // You can redirect to the search page or perform an API call, etc.
+
     };
+
+    const handleKeyDown  = (e) => {
+        if (e.key === "Enter") {
+            handleSearch();
+        }
+    };
+
     return (
         <>
             <div className="cmp-global-header__utility-nav">
@@ -20,9 +26,11 @@ const Search = () => {
                         placeholder="Search..."
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
+                        onKeyDown={handleKeyDown}
                         aria-label="search-aria"
+
                     />
-                    <a onClick={handleSearch} data-cmp-clickable aria-label="search-aria" className="cmp-global-header__search" > </a>
+                    <a onClick={handleSearch} data-cmp-clickable aria-label="search-aria" className="cmp-global-header__search"> </a>
                 </div>
 
 

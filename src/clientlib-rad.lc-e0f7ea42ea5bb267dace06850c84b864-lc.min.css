@@ -7722,7 +7722,8 @@ em,i{
     }
 }
 .cmp-global-header__search{
-    z-index:2
+    z-index:2;
+    display:flex;
 }
 .cmp-global-header__search a{
     color:#fff;
