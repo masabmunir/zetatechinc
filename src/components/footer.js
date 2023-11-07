@@ -105,7 +105,10 @@ const Footer = () => {
                 </div>
                 <div className="rad-footer__lottie-positioner">
                     <div className="rad-footer__lottie-centerer">
-                        <div className="rad-footer__lottie-ratio-maintainer"></div>
+                        <div className="rad-footer__lottie-ratio-maintainer">
+
+                            <img src="/assets/images/download.png" alt="footer img"/>
+                        </div>
                     </div>
                 </div>
             </div>

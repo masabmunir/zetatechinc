@@ -16,7 +16,7 @@ const radValue = ()=>{
                                             {wrapper?.children?.map((svg, svgIndex) => (
                                                 <svg key={svgIndex} {...svg}>
                                                     {svg?.children?.map((path, pathIndex) => (
-                                                        <path key={pathIndex} {...path} />
+                                                        <path key={pathIndex} {...path} style={{ fill: 'currentColor' }} />
                                                     ))}
                                                 </svg>
                                             ))}
@@ -29,7 +29,6 @@ const radValue = ()=>{
                     <h3 className="rad-360-value-title__sub-header">{Data.radValue?.children[1]?.children[0]}</h3>
                 </div>
             </div>
-
         </>
     )
 }
