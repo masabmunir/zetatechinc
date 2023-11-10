@@ -1,47 +1,88 @@
-
-.client-carousel{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    display: flex;
+/* Common styles for all screen sizes */
+.carousel-container {
     margin-top: 2rem;
-    gap: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /*height: 550px;*/
 }
 
-.image-container {
+.item-description {
+    color: red; /* Change 'red' to the desired color */
+}
 
+.carousel-controls {
+    /*position: absolute;*/
+    width: 20%;
+    left: 3%;
+    top: calc(100% - 5rem);
+    transform: translateX(0);
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px 0px;
+    font-size: 20px;
+    margin-left: 2rem
+}
+
+button {
+    padding: 5px 10px;
     cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-    gap: 20px;
+    color: white;
 }
 
-.image-container.expanded {
-    transform: scale(1.1); /* Add a scale effect when expanded */
+.text-content,
+p {
+    font-size: 2rem;
+    padding: 20px;
+    color: white;
 }
 
-.description-container {
-    text-align: center;
-    margin-top: 10px;
-    color: white; /* Set the text color to white */
+.arrow-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
 }
 
-.description-container h2,
-.description-container p {
-    color: white; /* Set the text color of title and description to white */
+.arrow-container.left {
+    left: 0;
 }
 
+.arrow-container.right {
+    right: 0;
+}
 
-/*.card {*/
-/*    width: 300px; !* Adjust the width as needed *!*/
-/*    height: 300px; !* Adjust the height as needed *!*/
-/*    background-size: cover;*/
-/*    background-position: center;*/
-/*    cursor: pointer;*/
-/*    overflow: hidden;*/
-/*}*/
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    /* Styles for tablets and smaller screens */
+    .carousel-container {
+        height: auto; /* Adjust height for smaller screens */
+    }
 
-/*.card-content {*/
-/*    background-color: white;*/
-/*    padding: 20px;*/
-/*    color: black; !* Adjust text color as needed *!*/
-/*}*/
+    .carousel-controls {
+        top: auto;
+        bottom: 0;
+        transform: translateX(0);
+    }
+
+    .text-content,
+    p {
+        font-size: 1.5rem;
+    }
+
+    .arrow-container {
+        font-size: 18px; /* Adjust arrow size for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Styles for mobile devices */
+    .carousel-controls {
+        padding: 5px 0;
+    }
+
+    /* You can add specific styles for even smaller screens if needed */
+}

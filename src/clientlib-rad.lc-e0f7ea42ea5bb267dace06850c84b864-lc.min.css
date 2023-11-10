@@ -10378,6 +10378,7 @@ html.cmp-global-header--menu-open{
     margin-bottom:0
 }
 .rad-mixed-media-and-text__text .rad-mixed-media-and-text__label{
+    color:white;
     font-size:0.875rem;
     font-weight:500;
     letter-spacing:.02em;
@@ -10828,6 +10829,7 @@ html.cmp-global-header--menu-open{
     outline-offset:0
 }
 .rad-news-header{
+    color:white;
     font-size:1.25rem;
     font-weight:500;
     letter-spacing:-0.025em;
