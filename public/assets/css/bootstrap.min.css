@@ -1476,6 +1476,7 @@ progress {
     }
 }
 @media (min-width: 1400px) {
+
     .col-xxl {
         flex: 1 0 0%;
     }

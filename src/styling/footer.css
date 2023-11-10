@@ -1,0 +1,159 @@
+/* Footer CSS Start */
+
+.footer__area {
+    overflow: hidden;
+}
+
+.footer__area-2 {
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 200px; /* Default background size for small screens */
+}
+
+@media (min-width: 992px) {
+    .footer__area-2 {
+        background-size: 350px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer__area-2 {
+        background-size: 380px;
+    }
+}
+
+.footer__area-3 {
+    background-color: var(--black-2);
+}
+
+.footer__row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.footer__top {
+    text-align: center; /* Adjusted text alignment for better responsiveness */
+}
+
+.footer__top img {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .footer__top img {
+        margin-bottom: -250px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer__top img {
+        margin-bottom: -300px;
+        width: 90%;
+    }
+}
+
+.footer__top-2 {
+    padding-bottom: 50px; /* Adjusted padding for smaller screens */
+}
+
+.footer__top-3 {
+    border-bottom: 1px solid var(--black-6);
+}
+
+.footer__top-wrapper-3 {
+    padding: 0 15px; /* Adjusted padding for smaller screens */
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+@media (min-width: 768px) {
+    .footer__top-wrapper-3 {
+        grid-template-columns: 35% 25% auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer__top-wrapper-3 {
+        grid-template-columns: 35% 20% auto;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer__top-wrapper-3 {
+        grid-template-columns: 35% 15% auto;
+        gap: 20px;
+    }
+}
+
+.footer__middle-2 {
+    border-top: 1px solid var(--white-2);
+    border-bottom: 1px solid var(--white-2);
+    padding: 50px 0; /* Adjusted padding for smaller screens */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer__middle-2 {
+        padding: 60px 0;
+    }
+}
+
+.footer__location-2 {
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media (min-width: 992px) {
+    .footer__location-2 {
+        gap: 50px;
+    }
+}
+
+.footer__location-2 .location h3 {
+    font-size: 18px; /* Adjusted font size for smaller screens */
+}
+
+.footer__btm {
+    /* Default styles outside of media queries can go here */
+}
+
+@media (min-width: 992px) {
+    .footer__btm {
+        padding-left: 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer__btm {
+        padding-left: 55px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer__btm {
+        padding-left: 0;
+        background-color: black;
+    }
+}
+
+.footer__btm-2 {
+    padding: 30px 0; /* Adjusted padding for smaller screens */
+}
+
+.footer__btm-3 {
+    padding: 30px 10px; /* Adjusted padding for smaller screens */
+}
+
+@media (min-width: 1200px) {
+    .footer__btm-3 {
+        padding: 40px 15px;
+    }
+}
+
+/* Other existing styles remain unchanged */
+
+/* Footer CSS End */

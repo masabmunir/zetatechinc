@@ -21521,25 +21521,25 @@ img {
   color: var(--black-2);
   padding-bottom: 10px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .footer__btm {
-    padding-left: 55px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .footer__btm {
-    padding-left: 100px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .footer__btm {
-    background-color: var(--black-2);
-  }
-  .footer__btm .container {
-    padding: 0;
-    background-color: var(--black-2);
-  }
-}
+/*@media only screen and (min-width: 1200px) and (max-width: 1399px) {*/
+/*  .footer__btm {*/
+/*    padding-left: 55px;*/
+/*  }*/
+/*}*/
+/*@media only screen and (min-width: 992px) and (max-width: 1199px) {*/
+/*  .footer__btm {*/
+/*    padding-left: 100px;*/
+/*  }*/
+/*}*/
+/*@media only screen and (max-width: 767px) {*/
+/*  .footer__btm {*/
+/*    background-color: var(--black-2);*/
+/*  }*/
+/*  .footer__btm .container {*/
+/*    padding: 0;*/
+/*    background-color: var(--black-2);*/
+/*  }*/
+/*}*/
 .footer__btm-2 {
   padding: 50px 0;
 }
@@ -27681,7 +27681,6 @@ body {
   }
 }
 .woocomerce__hero-item {
-  background-image: url("../imgs/woocomerce/wocomerce-1.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;

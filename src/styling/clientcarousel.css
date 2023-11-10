@@ -1,47 +1,59 @@
-
-.client-carousel{
+/* Common styles for all screen sizes */
+.carousel-container {
+    position: relative;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    display: flex;
-    margin-top: 2rem;
-    gap: 2rem;
+    width: 100%;
+    height: 550px;
 }
 
-.image-container {
+.item-description {
+    color: red; /* Change 'red' to the desired color */
+}
 
+.carousel-controls {
+    position: absolute;
+    /*bottom: -100px;*/
+    width: 10%;
+    left: 15%;
+    top: calc(100% - 5rem);
+    transform: translateX(-30%);
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding:10px 0px;
+    font-size: 20px;
+}
+
+button {
+    padding: 5px 5px;
     cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-    gap: 20px;
+    color: white;
 }
 
-.image-container.expanded {
-    transform: scale(1.1); /* Add a scale effect when expanded */
+.text-content {
+    padding: 20px;
 }
 
-.description-container {
-    text-align: center;
-    margin-top: 10px;
-    color: white; /* Set the text color to white */
+.text-content,p {
+    padding: 20px;
+    color: white;
 }
 
-.description-container h2,
-.description-container p {
-    color: white; /* Set the text color of title and description to white */
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    /* Styles for tablets and smaller screens */
+    .client-carousel {
+        flex-direction: column;
+    }
+
+    .image-container {
+        width: 100%; /* Make images full-width on smaller screens */
+    }
 }
 
-
-/*.card {*/
-/*    width: 300px; !* Adjust the width as needed *!*/
-/*    height: 300px; !* Adjust the height as needed *!*/
-/*    background-size: cover;*/
-/*    background-position: center;*/
-/*    cursor: pointer;*/
-/*    overflow: hidden;*/
-/*}*/
-
-/*.card-content {*/
-/*    background-color: white;*/
-/*    padding: 20px;*/
-/*    color: black; !* Adjust text color as needed *!*/
-/*}*/
+@media only screen and (max-width: 480px) {
+    /* Styles for mobile devices */
+    .client-carousel {
+        gap: 1rem; /* Adjust gap for smaller screens */
+    }
+}

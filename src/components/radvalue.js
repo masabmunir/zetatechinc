@@ -14,9 +14,10 @@ const radValue = ()=>{
                                     {line?.children?.map((wrapper, wrapperIndex) => (
                                         <div key={wrapperIndex} className={wrapper?.className}>
                                             {wrapper?.children?.map((svg, svgIndex) => (
-                                                <svg key={svgIndex} {...svg}>
+                                                <svg key={svgIndex} className={svg?.className} role={svg?.role} xmlns={svg?.xmlns}>
+                                                    {svg?.title && <title>{svg?.title}</title>}
                                                     {svg?.children?.map((path, pathIndex) => (
-                                                        <path key={pathIndex} {...path} />
+                                                        <path key={pathIndex} d={path?.path} fill={path?.fill} style={{ fill: 'currentColor' }} />
                                                     ))}
                                                 </svg>
                                             ))}
