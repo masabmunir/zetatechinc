@@ -1,7 +1,8 @@
 import React, {useState} from "react";
+import '../../styling/testimonial.css'
 const Testimonial = ()=>{
     const testimonials = [
-        // Add more testimonial objects as needed
+
         {
             title: 'Amazing digital service',
             text: 'We were there right at the beginning just when the concept for search engine optimisation...',
@@ -53,9 +54,12 @@ const Testimonial = ()=>{
                                 </div>
                             </div>
 
-                            <div className="swiper-button-prev" onClick={handlePrev} style={{marginTop: "271rem",marginLeft:"45rem"}}></div>
-                            <div className="swiper-button-next" onClick={handleNext} style={{marginTop: "271rem", marginRight: "14rem"}}></div>
+                            <div className="icons">
+                                <div className="swiper-button-prev" onClick={handlePrev}></div>
+                                <div className="swiper-button-next" onClick={handleNext}></div>
                             </div>
+
+                        </div>
                     </div>
                 </div>
             </div>

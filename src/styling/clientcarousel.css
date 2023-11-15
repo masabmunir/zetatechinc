@@ -1,28 +1,27 @@
-/* Common styles for all screen sizes */
 .carousel-container {
     margin-top: 2rem;
     position: relative;
     display: flex;
     flex-direction: column;
-    /*height: 550px;*/
 }
 
 .item-description {
-    color: red; /* Change 'red' to the desired color */
+    color: red;
 }
 
 .carousel-controls {
-    /*position: absolute;*/
-    width: 20%;
+    /* Adjusted position for better responsiveness */
+    width: 10%;
     left: 3%;
     top: calc(100% - 5rem);
     transform: translateX(0);
     display: flex;
-    justify-content: center;
-    gap: 5px;
+    position: relative;
+    justify-content: space-between;
+    gap: 15px;
     padding: 10px 0px;
     font-size: 20px;
-    margin-left: 2rem
+    margin-left: 2rem;
 }
 
 button {
@@ -41,25 +40,21 @@ p {
 .arrow-container {
     position: absolute;
     top: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
     transform: translateY(-50%);
+    right: 0;
+    gap: 5px;
     font-size: 24px;
     color: white;
     cursor: pointer;
 }
 
-.arrow-container.left {
-    left: 0;
-}
-
-.arrow-container.right {
-    right: 0;
-}
-
-/* Responsive styles */
+/* Media query for tablets (768px) */
 @media only screen and (max-width: 768px) {
-    /* Styles for tablets and smaller screens */
     .carousel-container {
-        height: auto; /* Adjust height for smaller screens */
+        height: auto;
     }
 
     .carousel-controls {
@@ -71,18 +66,29 @@ p {
     .text-content,
     p {
         font-size: 1.5rem;
+        /* Additional styles for better readability on tablets */
+        padding: 15px;
     }
 
     .arrow-container {
-        font-size: 18px; /* Adjust arrow size for smaller screens */
+        font-size: 18px;
     }
 }
 
+/* Media query for mobile devices (480px) */
 @media only screen and (max-width: 480px) {
-    /* Styles for mobile devices */
     .carousel-controls {
         padding: 5px 0;
     }
 
-    /* You can add specific styles for even smaller screens if needed */
+    .text-content,
+    p {
+        font-size: 1.2rem;
+        /* Additional styles for better readability on mobile devices */
+        padding: 10px;
+    }
+
+    .arrow-container {
+        font-size: 16px;
+    }
 }

@@ -204,11 +204,12 @@
     letter-spacing: 0;
     font-variant: initial;
     line-height: 1;
+    font-size: 24px;
 }
 .swiper-button-prev,
 .swiper-rtl .swiper-button-next {
-    left: 10px;
-    right: auto;
+    left: -6px;
+
 }
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
@@ -216,7 +217,7 @@
 }
 .swiper-button-next,
 .swiper-rtl .swiper-button-prev {
-    right: 10px;
+    right: 17px;
     left: auto;
 }
 .swiper-button-next:after,
