@@ -6,12 +6,12 @@ import FloatingCards from "../components/FloatingCards";
 import MediaText from "../components/MediaText";
 import AccentureNews from "../components/AccentureNews";
 import Footer from "../components/footer";
-import TiteGrid from '../components/tilegrid'
+import TileGrid from '../components/tilegrid'
 function Home() {
 
     return <div>
         <Banner/>
-        <TiteGrid/>
+        <TileGrid/>
         <Radvalue/>
         <ClientCarousel/>
         <FloatingCards/>

@@ -2,7 +2,7 @@ import React from 'react';
 import '../styling/tilegrid.css'
 import Data from '../utils/data.json';
 
-const tilegrid = () => {
+const Tilegrid = () => {
 
     return (
         <>
@@ -39,4 +39,4 @@ const tilegrid = () => {
     )
 }
 
-export default tilegrid;
+export default Tilegrid;
