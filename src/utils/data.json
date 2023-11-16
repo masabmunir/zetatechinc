@@ -3,38 +3,9 @@
     "text": "Reinvent What Your Business Could Be</span>"
 
   },
-  "titleGrid": [
-    {
-      "imageSrc": "https://source.unsplash.com/600x400/?computer",
-      "tag": "Technology",
-      "subText": "What's new in 2022 Tech",
-      "subClass": "tag-blue",
-      "subTextDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!",
-      "userImage": "https://i.pravatar.cc/40?img=1",
-      "userName": "John Doe",
-      "time": "2h ago"
-    },
-    {
-      "imageSrc": "https://source.unsplash.com/600x400/?food",
-      "tag": "Food",
-      "subText": "Delicious Food",
-      "subClass": "tag-brown",
-      "subTextDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!",
-      "userImage": "https://i.pravatar.cc/40?img=2",
-      "userName": "John Doe",
-      "time": "Yesterday"
-    },
-    {
-      "imageSrc": "https://source.unsplash.com/600x400/?car,automobile",
-      "tag": "Automobile",
-      "subText": "Race to your heart content",
-      "subClass": "tag-red",
-      "subTextDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!",
-      "userImage": "https://i.pravatar.cc/40?img=3",
-      "userName": "John Doe",
-      "time": "2d ago"
-    }
-  ],
+
+
+
 
   "radValue": {
     "className": "rad-360-value-title",

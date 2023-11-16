@@ -1,42 +1,70 @@
 import React from 'react';
-import '../styling/tilegrid.css'
-import Data from '../utils/data.json';
+import '../styling/tilegrid.css';
 
-const tilegrid = () => {
+const Data = [
+    {
+        "title": "Card 1 Title",
+        "content": "It is a long established fact that a reader will be distracted by the " +
+            "readable content of a page when looking at its layout. "
+    },
+    {
+        "title": "Card 2 Title",
+        "content": "Content for Card 2"
+    },
+    {
+        "title": "Card 3 Title",
+        "content": "Content for Card 3"
+    },
+    {
+        "title": "Card 4 Title",
+        "content": "Content for Card 4"
+    }
+
+];
+
+const TileGrid = () => {
+
 
     return (
         <>
-            <div className="container">
-                {
-                    Data.titleGrid.map((item, index) => {
-                        return (
-                            <div className="card" key={index}>
-                                <div className="card__header">
-                                    <img src={item.imageSrc} alt="card__image"
-                                         className="card__image" width="600"/>
+            <div className="carousel">
+                <div className="card-container">
+                    <div className="row1">
+                        {Data.map((item, index) => (
+                            <div
+                                key={index}
+                                className={`card`}
+                            >
+                                <h2>{item.title}</h2>
+                                <div className="card-content">
+
+                                    <p className="paragraph">{item.content}</p>
                                 </div>
-                                <div className="card__body">
-                                    <span className={'tag ' + item.subClass}>{item.tag}</span>
-                                    <h4>{item.subText}</h4>
-                                    <p>{item.subTextDescription}</p>
-                                </div>
-                                <div className="card__footer">
-                                    <div className="user">
-                                        <img src={item.userImage} alt="user__image"
-                                             className="user__image"/>
-                                        <div className="user__info">
-                                            <h5>{item.userName}</h5>
-                                            <small>{item.time}</small>
-                                        </div>
-                                    </div>
-                                </div>
+                                <button className="expand-button">expand</button>
                             </div>
-                        )
-                    })
-                }
+                        ))}
+                    </div>
+                    <div className="row2">
+                        {Data.map((item, index) => (
+                            <div
+                                key={index}
+                                className={`card`}
+                            >
+                                <h2>{item.title}</h2>
+                                <div className="card-content">
+
+                                    <p className="paragraph">{item.content}</p>
+                                </div>
+                                <button className="expand-button">expand</button>
+                            </div>
+                        ))}
+                    </div>
+
+                </div>
+
             </div>
         </>
-    )
-}
+    );
+};
 
-export default tilegrid;
+export default TileGrid;
