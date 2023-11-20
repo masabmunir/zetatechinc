@@ -8,8 +8,8 @@ export const Nav = styled.nav`
 	display: flex;
 	justify-content: space-between;
 	z-index: 12;
-	
-`;
+
+` ;
 
 export const NavLink = styled(Link)`
 	color: white;

@@ -53,9 +53,9 @@ const ImageCarousel = ({ images }) => {
                 {images.map((image, index) => (
                     <div key={index} className="carousel-cell" style={{width: "100%", display: "flex", alignItems: "center"}}>
                         <img style={{maxWidth: "100%", height: "48vh"}} src={image.image} alt={`Image ${index + 1}`} />
-                        <div className="text-content">
-                            <h2 style={{marginLeft:'1rem',fontWeight:"bold"}}>{image.title}</h2>
-                            <p>{image.description}</p>
+                        <div className="text-content" >
+                            <h2 style={{marginLeft:'1rem',fontWeight:"bold",fontSize:'50px'}}>{image.title}</h2>
+                            <p style={{fontSize:'25px'}}>{image.description}</p>
                             <a href="us-en/careers.html" style={{paddingLeft:"20px"}} className="rad-button rad-button--tertiary" data-cmp-clickable
                                data-cmp-data-layer="{&#34;mixedmediatextblock-178a5a195b-joinus-cta&#34;:{&#34;xdm:linkURL&#34;:&#34;/us-en/careers&#34;,&#34;analytics-engagement&#34;:&#34;true&#34;,&#34;analytics-link-type&#34;:&#34;engagement&#34;,&#34;analytics-link-name&#34;:&#34;Join us: null&#34;,&#34;analytics-module-name&#34;:&#34;mixedmediatextblock-1&#34;}}"
                                target="_self" aria-label="Join us" title="Join us">
