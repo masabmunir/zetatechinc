@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "./logo"; // Import your Logo component
 import Search from "./search";
 import Navbar from "./index";
+
 const Header = () => {
     return (
         <div style={{
@@ -9,8 +10,8 @@ const Header = () => {
             flexDirection: 'row',
             alignItems: 'center',
             justifyContent: 'space-around',
-        }}>
 
+        }}>
             <Logo/>
             <Navbar/>
             <Search/>
